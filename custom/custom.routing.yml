@@ -1,0 +1,7 @@
+custom.default_controller_index:
+  path: '/custom'
+  defaults:
+    _controller: '\Drupal\custom\Controller\DefaultController::index'
+    _title: 'custom'
+  requirements:
+    _permission: 'access content'
